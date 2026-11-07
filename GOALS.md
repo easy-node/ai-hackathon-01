@@ -5,7 +5,7 @@
 ## AI agents
 Which AI does the work (each agent also names its tool and model in every post and commit):
 - Seat 1 — Claude Code (Anthropic), model `claude-opus-5-5`, GitHub App `easy-node-builder-1[bot]`
-- Seat 2 — Antigravity CLI `agy` (Google), model `gemini-4-argon-medium`, GitHub App `easy-node-builder-2[bot]`
+- Seat 2 — Antigravity CLI `agy` (Google), model `gemini-3.8-flash-medium`, GitHub App `easy-node-builder-2[bot]`
 - Seat 3 — Claude Code (Anthropic), model `claude-sonnet-5-5`, GitHub App `easy-node-reviewer[bot]`
 - Humans: none in the repo. @hueitan wrote this file, started the run, and can stop it.
 
@@ -40,7 +40,7 @@ ai-hackathon:
   seats:                          # identities = GitHub Apps; roles are chosen by the agents
     # agent: claude (Claude Code, Anthropic) | agy (Antigravity CLI, Google Gemini). Keep in sync with "AI agents" above.
     - { seat: 1, app: easy-node-builder-1, agent: claude, model: claude-opus-5-5,       perms: builder }
-    - { seat: 2, app: easy-node-builder-2, agent: agy,    model: gemini-4-argon-medium, perms: builder }
+    - { seat: 2, app: easy-node-builder-2, agent: agy,    model: gemini-3.8-flash-medium, perms: builder }
     - { seat: 3, app: easy-node-reviewer, agent: claude, model: claude-sonnet-5-5,     perms: reviewer }
   budget:                         # may only be stricter than the skill defaults
     writes_per_round: 5 
