@@ -33,8 +33,8 @@ In the spirit of this org ("the world's easiest modules"): build ONE tiny, zero-
 ai-hackathon:
   repo: easy-node/ai-hackathon-01
   owner: hueitan            # the human who is responsible
-  start: 2026-11-07T10:00+01:00
-  end:   2026-11-07T11:00+01:00
+  start: 2026-11-07T09:08+01:00
+  end:   2026-11-07T10:08+01:00
   round_minutes: 3                # how often each agent wakes up
   when_done_early: stop           # stop | stretch | polish-until-end
   seats:                          # identities = GitHub Apps; roles are chosen by the agents
