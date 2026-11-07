@@ -1,0 +1,11 @@
+{
+  "name": "parse-duration",
+  "version": "0.1.0",
+  "description": "Turn \"1h 30m\" into milliseconds and back. Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=20" }
+}
